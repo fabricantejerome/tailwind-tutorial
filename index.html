@@ -10,6 +10,10 @@
         .card {
             @apply bg-white rounded overflow-hidden shadow-md relative;
         }
+        
+        .btn {
+            @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+        }
     </style>
     <script>
         tailwind.config = {
@@ -64,8 +68,8 @@
 
         <main class="md:col-span-2 px-16 py-6">
             <div class="flex justify-center md:justify-end">
-                <a href="#" class="text-primary">Log in</a>
-                <a href="#" class="text-primary ml-2">Sign up</a>
+                <a href="#" class="text-primary border-primary md:border-2 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider">Log in</a>
+                <a href="#" class="text-primary ml-2 border-primary md:border-2 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider">Sign up</a>
             </div>
 
             <!-- <div class="flex">
@@ -125,7 +129,7 @@
                 </div>
 
                 <div class="flex justify-center">
-                    <div class="bg-secondary-100 text-secondary-200">Load more</div>
+                    <div class="bg-secondary-100 text-secondary-200 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider">Load more</div>
                 </div>
             </div>
         </main>
